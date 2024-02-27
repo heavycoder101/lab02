@@ -1,0 +1,83 @@
+/* Reset default margin and padding */
+body, h1, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply box-sizing border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: turquoise; /* Background color resembling a tortoise shell */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Heading styles */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="password"],
+.container form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation link styles */
+.container a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.container a input[type="button"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.container a input[type="button"]:hover {
+    background-color: #b3b3b3;
+}
